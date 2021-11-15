@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES := \
+     $(LOCAL_DIR)/twrp_X689.mk
