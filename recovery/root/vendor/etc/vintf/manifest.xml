@@ -1,5 +1,6 @@
 <!--
     Input:
+        manifest_silead.xml
         manifest_chipone.xml
         manifest_target_level_r.xml
         manifest_sensor_hidl_v2.xml
@@ -584,6 +585,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::ISupplicant/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.silead.hardware.fingerprintext</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISileadFingerprint</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ISileadFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.transsion.hardware.tranlog</name>

@@ -22,18 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from selene device
-$(call inherit-product, device/Infinix/X689/device.mk)
+$(call inherit-product, device/tecno/LE7/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X689
-PRODUCT_NAME := twrp_X689
-PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Hot 10s
-PRODUCT_MANUFACTURER := Infinix Mobility Limited
-PRODUCT_RELEASE_NAME := Infinix Hot 10s
+PRODUCT_DEVICE := LE7
+PRODUCT_NAME := twrp_LE7
+PRODUCT_BRAND := Tecno
+PRODUCT_MODEL := LE7
+PRODUCT_MANUFACTURER := Tecno Mobility Limited
+PRODUCT_RELEASE_NAME := Tecno Pova 2
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \

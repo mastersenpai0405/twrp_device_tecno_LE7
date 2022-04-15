@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/Infinix/X689
+LOCAL_PATH := device/tecno/LE7
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
